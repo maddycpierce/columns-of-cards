@@ -1,7 +1,46 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
+
+section {
+  float: left;
+  width: 25%;
+}
+
+img {
+  width: 100px;
+}
+
+.btn {
+  background-color: #333;
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: .75rem;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+.one {
+  background-color: #e2e2e2;
+}
+
+.two {
+  background-color: #ccc;
+}
+
+.three {
+  background-color: #aaa;
+}
+
+.four {
+  background-color: #999;
 }
