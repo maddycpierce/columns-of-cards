@@ -9,11 +9,26 @@ html {
 
 body {
   line-height: 1.5;
+  margin: 0 auto 1.5rem;
+}
+
+h1 {
+  text-align: center;
 }
 
 section {
   float: left;
   width: 25%;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: .875rem;
+}
+
+p {
+  font-size: .875rem;
 }
 
 img {
